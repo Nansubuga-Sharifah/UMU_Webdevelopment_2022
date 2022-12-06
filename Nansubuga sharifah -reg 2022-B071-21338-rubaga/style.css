@@ -1,0 +1,164 @@
+.main{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(129, 198, 129);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.one{
+    margin: 20PX;
+    display: flex;
+}
+.first{
+    color:teal;
+    font-size: 30px;
+
+
+}
+
+.one ul{
+    display: flex;
+    list-style-type: none;
+    margin: 40px;
+
+}
+.one ul li a{
+    padding: 10px;
+    color: teal;
+    text-decoration: none;
+}
+.one a:hover{
+    font-size: 30px;
+    background-color: rgb(40, 97, 97);
+}
+.header-content{
+    display: flex;
+    font-size: 10px;
+    font-weight: 10px;
+    position:absolute;
+    color:white;
+    margin-left: 60px;
+    background-color: rgb(95, 156, 95);
+    width: 80%;
+    height: 100px;
+    display: block;
+    padding: 0 5%;
+    margin: 20px;
+
+}
+.header-button{
+    display: inline;
+    text-decoration: none;
+    color:black;
+    font-size: 24px;
+    border: 2px solid white;
+    padding: 14px 70px;
+    margin-left: 750px;
+    margin: 0,
+
+}
+.mid{
+    
+    position: relative;
+    height: 10px;
+    margin-top: 15%;
+
+}
+.mid>img{
+    object-fit: cover;
+    max-height: 20rem;
+    width: 35%;
+
+}
+.mid-content{
+    position: absolute;
+    top: 50%;
+    right:30%;
+    width: 20rem;
+    height: 20rem;
+    padding: 2rem;
+}
+
+.mid-content>h2{
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1rem;
+}
+.middle-content{
+    position: absolute;
+    top: 100%;
+    right:20%;
+    width: 20rem;
+    height: 20rem;
+    padding: 2rem;
+}
+.sun{
+    position: relative;
+    height: 10px;
+    margin-top: 20%;
+
+}
+.sun>img{
+    object-fit: cover;
+    max-height: 15rem;
+    width: 30%;
+    margin-top: 15%;
+
+}
+.content{
+    position: absolute;
+    top: 110%;
+    right:30%;
+    width: 20rem;
+    height: 20rem;
+    padding: 2rem;
+}
+.content>h2{
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1rem;
+    margin-right: 30%;
+}
+.cup{
+    position: relative;
+    height: 10px;
+    margin-top: 20%;
+}
+.cup>img{
+    object-fit: cover;
+    max-height: 15rem;
+    width: 30%;
+    margin-top: 20%;
+}
+.info{
+
+    position: absolute;
+    top: 150%;
+    right: 50%;
+    width: 10rem;
+    height: 20rem;
+    padding: 3rem;
+    
+}
+.info>h2{
+    
+    font-size: 1rem;
+    margin-bottom:1rem;
+    line-height: 1rem;
+    font-weight: 200;
+    
+
+
+}
+
+
+
+
+
+
+
+
